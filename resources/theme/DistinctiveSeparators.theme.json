@@ -1,0 +1,274 @@
+{
+  "name": "DistinctiveSeparators",
+  "author": "JetBrains support",
+  "dark": true,
+  "parentTheme": "Darcula",
+  "colors": {
+    "veryBlack": "#000000",
+    "cyanSeparator": "#1AEBFF",
+    "graySeparator": "#B3B3B3",
+    "genericGray": "#E6E6E6",
+    "disabledColor": "#AA6E28",
+    "darkGray": "#6A6173",
+    "veryWhite": "#FFFFFF",
+    "warningOrange": "#F58231",
+    "errorRed": "#E6194B",
+    "blackWithTransparency": "#000000C8"
+  },
+  "ui": {
+    "*": {
+      "borderColor": "genericGray",
+      "disabledBorderColor": "disabledColor",
+      "focusedBorderColor": "cyanSeparator",
+      "hoverBorderColor": "cyanSeparator",
+      "pressedBorderColor": "cyanSeparator",
+      
+      "separatorColor": "graySeparator",
+      "lineSeparatorColor": "darkGray"
+    },
+    
+    
+    "Button": {
+      "startBorderColor": "veryWhite",
+      "endBorderColor": "veryWhite",
+      
+      "default": {
+        "startBorderColor": "cyanSeparator",
+        "endBorderColor": "cyanSeparator",
+        "focusedBorderColor": "veryBlack"
+      }
+    },
+    
+    "SegmentedButton": {
+      "selectedStartBorderColor": "cyanSeparator",
+      "selectedEndBorderColor": "cyanSeparator"
+    },
+    
+    "Borders": {
+      "color": "graySeparator",
+      "ContrastBorderColor": "graySeparator"
+    },
+    
+    "Code": {
+      "Inline": {
+        "borderColor": "darkGray",
+        "borderWidth": 1
+      },
+      "Block": {
+        "borderColor": "darkGray",
+        "borderWidth": 1,
+        "EditorPane": {
+          "borderColor": "darkGray"
+        }
+      }
+    },
+    
+    "ComboPopup.border": "1,1,1,1,E6E6E6",
+    
+    
+    "Component": {
+      "focusedBorderColor": "veryBlack"
+    },
+    
+    "DebuggerPopup.borderColor": "genericGray",
+    
+    "DebuggerTabs.selectedBackground": "#000080",
+    
+    "DefaultTabs": {
+      "underlineColor": "cyanSeparator",
+      "inactiveUnderlineColor": "cyanSeparator",
+      "underlineHeight": 5
+    },
+    
+    "DragAndDrop": {
+      "borderColor": "#3366FF",
+      "areaBorderColor": "cyanSeparator"
+    },
+    
+    "EditorTabs": {
+      "selectedBackground": "#0e5d73",
+      "inactiveMaskColor": "veryBlackFF",
+      
+      "underlineColor": "cyanSeparator",
+      "underlineHeight": 4,
+      
+      "underlinedTabBackground": "veryBlack"
+    },
+    
+    "FileColor": {
+      "Yellow": "#381C00",
+      "Green": "#092E15",
+      "Blue": "#00004D",
+      "Violet": "#471747",
+      "Orange": "#733000",
+      "Rose": "#4D0F22",
+      "Gray": "#062329"
+    },
+    
+    "IconBadge": {
+      "borderWidth": 1.5,
+      "dotRadius": 3.5,
+      "dotX": 16.5,
+      "dotY": 3.5
+    },
+    
+    "InplaceRefactoringPopup": {
+      "borderColor": "genericGray"
+    },
+    
+    "NavBar.borderColor": "graySeparator",
+    
+    "Notification": {
+      "errorBorderColor": "errorRed",
+      
+      "MoreButton.innerBorderColor": "veryBlack",
+      
+      "ToolWindow": {
+        "informativeBorderColor": "genericGray",        
+        "warningBorderColor": "warningOrange",        
+        "errorBorderColor": "errorRed"
+      }
+    },
+    
+    "OptionButton" : {
+      "default.separatorColor": "veryBlack",
+      "separatorColor": "veryWhite"
+    },
+    
+    "Plugins": {
+      
+      "SearchField.borderColor": "graySeparator",
+      
+      "Button": {
+        "installBorderColor":"cyanSeparator"
+      }
+    },
+    
+    "Popup": {
+      "paintBorder": true,
+      "inactiveBorderColor": "genericGray",
+      "Toolbar.borderColor": "graySeparator",
+      "separatorForeground": "veryWhite",
+      "Advertiser": {
+        "borderColor": "#000080",
+        "borderInsets": "3,8,5,0"
+      }
+    },
+    
+    "PopupMenu": {
+      "borderWidth": 1,
+      "borderInsets": "8,1,8,1"
+    },
+    
+    "ScrollBar": {
+      "Transparent": {
+        "thumbBorderColor": "blackWithTransparency"
+      },
+      "thumbBorderColor": "blackWithTransparency",
+      
+      "Mac": {
+        "Transparent": {
+          "thumbBorderColor": "blackWithTransparency"
+        },
+        "thumbBorderColor": "blackWithTransparency",
+        "hoverThumbBorderColor": "blackWithTransparency"
+      }
+    },
+    
+    "SearchEverywhere": {
+      "SearchField.borderColor": "graySeparator",
+      "Advertiser": {
+        "borderInsets": "3,8,5,0"
+      }
+    },
+    
+    
+    "Slider": {
+      "buttonColor": "veryWhite",
+      "buttonBorderColor": "veryBlack",
+      "tickColor": "veryWhite",
+      "trackColor": "#8c8c8c"
+    },
+    
+    "StatusBar.borderColor": "graySeparator",
+    
+    "TabbedPane": {
+      "underlineColor": "cyanSeparator",
+      "disabledUnderlineColor": "disabledColor"
+    },
+    
+    "TableHeader": {
+      "cellBorder": "5,0,5,0"
+    },
+    
+    "ToggleButton": {
+      "borderColor": "veryWhite"
+    },
+    
+    
+    "ToolWindow": {
+      "HeaderTab": {
+        "underlineColor": "cyanSeparator",
+        "inactiveUnderlineColor": "cyanSeparator",
+        "underlineHeight": 5
+      }
+    },
+    
+    
+    "ValidationTooltip": {
+      "errorBorderColor": "errorRed",
+      "warningBorderColor": "warningOrange"
+    },
+    
+    
+    "CombinedDiff": {
+      "BlockBorder": {
+        "selectedActiveColor": "cyanSeparator"
+      }
+    },
+    
+    "GotItTooltip": {
+      "shortcutBorderColor": "cyanSeparator"
+    },
+    
+    "Tooltip.Learning": {
+      "borderColor": "veryWhite",
+      "iconBorderColor": "veryWhite"
+    },
+    
+    "WelcomeScreen": {
+      "separatorColor": "genericGray"
+    },
+    
+    "MainToolbar": {
+      "Icon": {
+        "borderInsets": "10,10,10,10"
+      },
+      "Dropdown": {
+        "borderInsets": "12,6,12,6"
+      }
+    },
+    
+    "TitlePane.Button.hoverBackground": "#3333FF",
+    
+    "Window.border" : "1,1,1,1,E6E6E6",
+    
+    
+    "Profiler": {
+      "ChartSlider": {
+        "lineColor": "cyanSeparator"
+      },
+      "CpuChart": {
+        "borderColor": "#629655",
+        "pointBorderColor": "veryWhite"
+      },
+      "MemoryChart": {
+        "borderColor": "#589DF6",
+        "pointBorderColor": "veryWhite"
+      },
+      "LiveChart": {
+        "horizontalAxisColor": "genericGray"
+      }
+    }
+  }
+}
